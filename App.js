@@ -64,7 +64,7 @@ class App extends Component {
         <View style={styles.areaUltimo}>
             <Text style={styles.textoCorrida}>
               {this.state.ultimo > 0 ? 'Último tempo:' + this.state.ultimo.toFixed(1):''}
-              </Text>
+            </Text>
         </View>
     </View>
   );
